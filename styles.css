@@ -69,6 +69,11 @@
     cursor:pointer;
 }
 
+.decimal:active,
+.number:active{
+    background: #a3a118;
+}
+
 .equals{
     background:#11ba1c;
 }
