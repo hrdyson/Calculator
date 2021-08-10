@@ -32,20 +32,23 @@
     height:30px;
     border:1px solid black;
 }
+
 .preview:focus,
 .sum:focus{
     outline: none;
 }
+
 .preview{
     border-bottom: none;
 }
+
 .sum{
     border-top:none;
 }
 
 .clear{
     width:480px;
-    height:30px;
+    height:35px;
     background:#fa1111;
     border:none;
     cursor:pointer;
@@ -77,6 +80,7 @@
 .equals{
     background:#11ba1c;
 }
+
 .equals:active{
     background-color:#098211;
 }
