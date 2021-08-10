@@ -39,9 +39,12 @@ let objCalculator = {
         this.objClear.addEventListener('click',function(event){
             _self.clear();
         });
+        this.objEquals.addEventListener('click',function(event){
+            _self.equals();
+        });
     },
     preview:function(data){
-        console.log(data);
+        //console.log(data);
         let dataType = 'number';
         switch(data){
             case '+':
@@ -94,6 +97,9 @@ let objCalculator = {
             strMessage += ' '+this.number2;
         }
         this.objPreview.value = strMessage;
+    },
+    equals:function(){
+        console.log(equals);
     }
 };
 
